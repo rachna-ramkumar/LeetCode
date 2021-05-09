@@ -3,11 +3,10 @@
 ## Technical Interview Prep - LeetCode
 
 | # | Title | Language | Difficulty |
-|---|-------|----------|------------|
-| 1  | Two Sum      |  Java        |       Easy     |
+|:-:|:-----:|:--------:|:----------:|
+| 1.  |   Two Sum    |    Java      |    Easy        |
 |   |       |          |            |
 |   |       |          |            |
-
 
 
 
