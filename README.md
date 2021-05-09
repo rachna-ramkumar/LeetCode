@@ -4,7 +4,7 @@
 
 | # | Title | Language | Difficulty |
 |:-:|:-----:|:--------:|:----------:|
-| 1.  |   Two Sum    |    Java      |    Easy        |
+| 1.  |   [Two Sum](https://github.com/rachna-ramkumar/LeetCode/tree/main/two-sum)   |    Java      |    Easy        |
 |   |       |          |            |
 |   |       |          |            |
 
