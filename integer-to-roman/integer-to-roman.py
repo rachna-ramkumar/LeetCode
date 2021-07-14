@@ -5,10 +5,9 @@ class Solution:
                   (5, "V"), (4, "IV"), (1, "I")]
         roman_digits = []
         for value, symbol in digits:
-            if num == 0: break
+            if num == 0:
+                break
             count, num = divmod(num, value)
             roman_digits.append(symbol * count)
         return "".join(roman_digits)
-    
-        
         
