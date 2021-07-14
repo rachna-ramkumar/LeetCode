@@ -6,8 +6,17 @@
 #         self.right = right
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
-        def traverse(node):  
-            if node: return f"#{node.val}{traverse(node.left)}{traverse(node.right)}"
-        return traverse(t) in traverse(s)
+        if not t: return True
+        if not s: return False
+        if self.isSametree(s,t): 
+            return True
+        return self.isSubtree(s.left, t) or self.isSubtree(s.right, t)
     
-        
+    def isSametree(self, s, t):
+        if not s and not t:
+            return True
+        if not s or not t:
+            return False
+        if s.val!=t.val:
+            return False
+        return self.isSametree(s.left,t.left) & self.isSametree(s.right,t.right)
