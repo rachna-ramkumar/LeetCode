@@ -13,6 +13,7 @@ class Solution:
         for i in range(length):
             answer[i] = L[i] * R[i]
         return answer
+    
             
             
                     
